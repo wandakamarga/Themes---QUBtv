@@ -1,0 +1,6 @@
+<div class="figure_share">
+	<span>share this</span>
+	<a href="https://twitter.com/share?url=<?php the_permalink(); ?>"  target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter2.png" alt=""></a>
+	<a title="Share on Facebook" href="http://www.facebook.com/sharer.php?s=100&p[title]=<?php the_title(); ?>&p[summary]=<?php echo types_render_field("portolio-longer-description", array("output"=>"raw")); ?>&p[url]=<?php the_permalink(); ?>&p[images[0]=YOUR_IMAGE_TO_SHARE_OBJECT" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook2.png" alt=""></a>
+	<a href="javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());"><img id="pin1click" src="<?php echo get_stylesheet_directory_uri(); ?>/img/pin.png" alt=""></a>
+</div>
